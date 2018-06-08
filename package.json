@@ -2,6 +2,7 @@
   "name": "skygear-social-login-google",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://demo934.skygeario.com/static/",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -9,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf public_html && mv build public_html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
