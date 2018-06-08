@@ -3,3 +3,37 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.block-button {
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 14pt;
+}
+
+.inline-button {
+  color: #fc644d;
+  font-size: 14pt;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* .primary-bg {
+  background-color: #fc644d;
+} */
+
+.secondary-bg {
+  background-color: #444444;
+}
+
+.block-div {
+  background-color: #dddddd;
+  padding: 20px 10px;
+  white-space: pre;
+}
+
+.Login {
+  text-align: left;
+  padding: 40px;
+  color: #444444;
+}
