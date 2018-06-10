@@ -122,7 +122,7 @@ class App extends Component {
         <p>Skygear currentUser:</p>
         <div className="block-div">{this.state.user}</div>
 
-        <p>currentUser's Google profile:</p>
+        <p>currentUser Google profile:</p>
         <div className="block-div ">{this.state.profile}</div>
         <br/>
         <button className="inline-button" onClick={() => this.onLogout()}>Logout</button>
