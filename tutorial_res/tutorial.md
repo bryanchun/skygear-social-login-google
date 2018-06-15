@@ -381,6 +381,8 @@ We can absolutely do it with Skygear, with a technique called `static hosting`.
 
   - Yes we have `dynamic hosting` too. That is a totally different story. Instead of putting the `html, css, js` onto the server, dynamic hosting will render the html by some scripts on the go. In our case, given that we will make those files (**assets**) by **building** from our React scripts, we opt for the simpler static hosting.
 
+  - [Static vs Dyanmic hosting article](https://about.gitlab.com/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/) by GitLab for reference
+
 By the end of this part, you can just access your React app by a URL in a skygear domain, ready for you and others to read, use and share.
 
   - **Custom domain** is entirely supported by Skygear, i.e. if you have your own domain name, we can help you load this React app onto a different domain from Skygear's. More on this later.
